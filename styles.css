@@ -6,4 +6,19 @@
 body {
   font-size: var(--fontsize);
   color: var(--fontcolor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 20px;
 }
